@@ -10,8 +10,8 @@ setup(name='netflowinterface',
       description='netflow interface module',
       packages=find_packages(),
       package_data={'':['*.ini','*.dat']},
-      install_requires=["gevent>=1.0rc1",
+      install_requires=["gevent>=1.0.1",
                         "dpkt>=1.7"],
-      dependency_links=["https://github.com/downloads/SiteSupport/gevent/gevent-1.0rc1.tar.gz",
+      dependency_links=["https://pypi.python.org/packages/source/g/gevent/gevent-1.0.1.tar.gz",
                         "http://dpkt.googlecode.com/files/dpkt-1.7.tar.gz"]
       )
